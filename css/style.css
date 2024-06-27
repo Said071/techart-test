@@ -1,0 +1,241 @@
+html{
+    box-sizing: border-box;
+    background: #fff;
+    margin: 0 auto;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+body{
+    background: #fff;
+    margin: 0 auto;
+    font-family: "Open Sans";
+    color: #FFF;
+    font-style: normal;
+    line-height: 120%;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.main-container {
+    margin: 0 auto;
+    width: 1520px;
+}
+
+.left-block img {
+    display: block;
+    width: 90px;
+    height: 70px;
+    object-fit: contain;
+}
+
+.left-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 25px;
+    text-decoration: none;
+}
+
+.title-logo {
+    color: #2C145E;
+    font-size: 28px;
+    font-family: "Segoe UI";
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 3.5px; 
+    text-transform: uppercase;
+}
+
+.main-banner {
+    background: #D9D9D9;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.30) 0%, rgba(0, 0, 0, 0.30) 100%), url(../img/image-main-banner.jpg), lightgray 0px 11.632px / 100% 99.86% no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+}
+
+.title-banner-main {
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 140%;
+}
+
+.desc-banner-main {
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 160%;
+    margin-top: 30px;
+}
+
+.banner-content-block {
+    transform: translateY(130%);
+}
+
+.news-title {
+    color: #000;
+    font-size: 64px;
+    font-weight: 600;
+    line-height: 140%;
+    margin: 50px 0;
+}
+
+.news-block {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 80px;
+    column-gap: 40px;
+}
+
+.news-card {
+    width: calc(50% - 40px);
+    text-decoration: none;
+    color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.time-news {
+    padding: 6px 18px;
+    border-radius: 20px;
+    background-color: #ECF2F5;
+    color: #6C6E7B;
+    width: max-content;
+    margin-bottom: 30px;
+}
+
+.title-news {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: normal;
+    margin-bottom: 30px;
+    transition: all 0.4s;
+}
+
+.desc-news {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    margin-bottom: 30px;
+}
+
+.button-news {
+    margin-top: auto;
+    color: #841844;
+    border: 2px solid #841844;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 16px 40px;
+    background-color: #fff;
+    border-radius: 50px;
+    width: max-content;
+    transition: all 0.4s;
+    display: flex;
+    column-gap: 15px;
+    align-items: center;
+    text-decoration: none;
+}
+
+.button-news:hover {
+    color: #fff;
+    background-color: #841844;
+}
+
+.news-card:hover .title-news{
+    color: #841844;
+}
+
+.news-card:hover .button-news{
+    color: #fff;
+    background-color: #841844;
+}
+
+.news-card:hover .button-news .arrow-next {
+    background-image: url(../img/Arrow-white.svg);
+}
+
+.pagination-block {
+    margin: 80px 0 80px auto;
+    display: flex;
+    width: max-content;
+    column-gap: 16px;
+}
+
+.number-page {
+    color: #841844;
+    background-color: #FFF;
+    border: 2px solid #841844;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    padding: 16px 23px;
+    border-radius: 50px;
+    transition: all 0.4s;
+    cursor: pointer;
+}
+
+.number-page:hover {
+    color: #fff;
+    background-color: #841844;
+}
+
+.arrow-next,
+.arrow-prew {
+    background-image: url(../img/Arrow-red.svg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    width: 32px;
+    height: 22px;
+    transition: all 0.4s;
+    left: 5px;
+}
+
+.arrow-prew {
+    transform: rotate(180deg);
+}
+
+.number-page .arrow-next {
+    margin: 0 10px;
+}
+
+.number-page:hover .arrow-next {
+    background-image: url(../img/Arrow-white.svg);
+}
+
+.button-news:hover .arrow-prew {
+    background-image: url(../img/Arrow-white.svg);
+}
+
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #000;
+}
+
+.copywriting {
+    display: block;
+    width: max-content;
+    margin: 65px auto 75px 0;
+    color: #000;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+}
