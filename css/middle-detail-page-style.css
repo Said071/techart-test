@@ -1,0 +1,40 @@
+@media (min-width: 769px) and (max-width: 1200px) {
+    .main-container {
+        width: calc(100% - 100px);
+        margin: 0 50px;
+        }
+
+    header  {
+        padding: 30px 0;
+    }
+     .breadcrumbs {
+        margin: 30px auto 20px 0;
+     }
+    .title-page {
+        font-size: 50px;
+        margin-bottom: 20px;
+     }
+
+     
+
+
+     .detail-news-card {
+        flex-direction: column-reverse;
+        margin-bottom: 70px;
+     }
+
+     .right-block-detail-news {
+        width: 110%;
+        height: 370px;
+    }
+    .time-news {
+        margin-top: 20px;
+    }
+    .left-block-detail-news {
+        width: auto;
+    }
+    .copywriting {
+        margin: 35px auto 35px 0;
+    }
+}
+ 

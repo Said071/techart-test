@@ -1,0 +1,51 @@
+@media (min-width: 1201px) and (max-width: 1600px) {
+
+    .main-container {
+      width: calc(100% - 80px);
+      margin: 0 40px;
+  
+    }
+
+    header  {
+        padding: 30px 0;
+    }
+     .breadcrumbs {
+        font-size: 22px;
+        margin: 30px auto 20px 0;
+     }
+
+     .detail-news-card {
+        flex-direction: column-reverse;
+        margin-bottom: 70px;
+     }
+
+     .detail-news-title {
+        font-size: 40px;
+     }
+
+    .title-page {
+        font-size: 60px;
+        margin-bottom: 20px;
+     }
+
+     .left-block-detail-news {
+        width: auto;
+    }
+    
+    .time-news {
+      margin-top: 20px;
+    }
+    .right-block-detail-news {
+        width: 100%;
+        
+    }
+
+    .detail-news-desc {
+        font-size: 30px;
+    }
+     .copywriting {
+        margin: 35px auto 35px 0;
+        font-size: 25px;
+     }
+
+}

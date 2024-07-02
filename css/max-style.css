@@ -1,0 +1,21 @@
+@media (min-width: 1201px) and (max-width: 1600px) {
+
+  .main-container {
+    width: calc(100% - 80px);
+    margin: 0 40px;
+
+  }
+  .main-banner {
+    height: 60vh;
+  }
+  .news-title {
+    margin: 40px 0;
+    text-align: center;
+  }
+  .pagination-block {
+    margin: 50px 0 50px auto;
+  }
+  .copywriting {
+    margin: 35px auto 35px 0;
+  }
+}
