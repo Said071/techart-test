@@ -4,6 +4,10 @@
         margin: 0 50px;
         }
 
+        header {
+            flex-direction: column;
+        }
+
         .main-banner {
             height: 50vh;
         } 

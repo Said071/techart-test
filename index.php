@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/min-style.css">
-    <link rel="stylesheet" href="css/middle-style.css">
-    <link rel="stylesheet" href="css/max-style.css">
-    <title>Галактический вестник</title>
-</head>
-<body>
-    <header>
-        <div class="left-block main-container">
-            <img src="img/logo.svg" alt="logo planet">
-            <div class="title-logo">Галактический<br>вестник</div>
-        </div>
-    </header>
+
+    <?php include("header.php");
+    ?>
     <main>
         <div class="main-banner">
             <div class="banner-content-block main-container">
@@ -62,10 +46,7 @@
             </div>
         </div>
     </main>
-   <footer class="main-container">
-        <div class="line"></div>
-        <div class="copywriting">© 2023 — 2412 «Галактический вестник»</div>
-    </footer> 
+    <?php include("footer.php");?>
 </body>
 </html>
 
